@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: block;
+  height: 64px;
+  background-color: #2c3e50;
+  font-family: "Arial","Helvetica", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eee;
+}
+
+nav .wrapper {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  line-height: 64px;
+}
+
+nav .logo {
+  position: absolute;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+nav ul {
+  position: absolute;
+  right: 0.5rem;
+  height: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul a {
+  display: inline-block;
+  height: 100%;
+  padding: 0 10px;
+  -webkit-transition: background-color 150ms linear;
+  transition: background-color 150ms linear;
+}
+
+nav ul a:hover {
+  background-color: #243241;
+}
+/*# sourceMappingURL=main.css.map */
